@@ -1,0 +1,52 @@
+.container{
+    width: 700px;
+}
+
+.top-banner{
+    background-color: firebrick;
+    height: 100px;
+}
+
+.photo img{
+    width: 150px;
+    position: fixed;
+    top: 45px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.sub-content{
+    border: 2px solid grey;
+    border-top: 0px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+h1{
+    margin-left: 5px;
+}
+
+.location{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+img{
+    width: 20px;
+}
+
+p{
+    margin-left: 5px;
+}
+
+.edit-profile{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+a, a:hover, a:visited, a:active{
+    color: blue;
+}
+
