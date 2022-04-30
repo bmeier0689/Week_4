@@ -47,7 +47,6 @@
 /* User Card */
 
 .flex-container{
-    width: 700px;
     display: flex;
 }
 
@@ -58,6 +57,7 @@
     border-radius: 5px;
     font-size: 1.2rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 600px;
 }
 
 .card-header{
@@ -98,7 +98,6 @@ a{
 /* Education Section */
 
 .education{
-    width: 700px;
     display: flex;
 }
 
@@ -109,6 +108,7 @@ a{
     border-radius: 5px;
     font-size: 1.2rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 600px;
 }
 
 .education-header{
@@ -117,14 +117,13 @@ a{
     color: whitesmoke;
 }
 
-.education-body{
-
+.education-body, h2, h3, p{
+    margin: 10px 10px;
 }
 
 /* Connection Requests */
 
 .connection-r{
-    width: 400px;
     display: flex;
 }
 
@@ -133,6 +132,8 @@ a{
     border: 2px solid #999;
     margin: 20px;
     border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 300px;
 }
 
 .requests-header{
@@ -141,14 +142,10 @@ a{
     color: whitesmoke;
 }
 
-.requests-body{
-    display: flex;
-}
 
 /* Your Connections */
 
 .connection-y{
-    width: 400px;
     display: flex;
 }
 
@@ -157,6 +154,8 @@ a{
     border: 2px solid #999;
     margin: 20px;
     border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 300px;
 }
 
 .connections-header{
@@ -165,10 +164,27 @@ a{
     color: whitesmoke;
 }
 
-/* Avatars */
+/* Misc */
 
 .avatar-s{
-    height: 85px;
+    height: 70px;
     border-radius: 50%;
     background-color: white;
+    margin: 0px 20px;
+}
+
+h1{
+    margin: 0px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.icon-m{
+    height: 40px;
+}
+
+.connection-p{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
 }
