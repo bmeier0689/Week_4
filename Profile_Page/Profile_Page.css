@@ -3,7 +3,7 @@
 .nav{
     background-color: rgb(48, 48, 48);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 0px 20px;
 }
 
@@ -25,6 +25,10 @@
     color: white;
     box-shadow: 2px 2px black;
     margin: 0px 0px 0px 20px;
+}
+
+.button{
+    margin-left: 50px;
 }
 
 .active{
@@ -71,9 +75,11 @@
 }
 
 .card-body h1,
-.card-body h3,
-.card-body p {
+.card-body h3 {
     margin: 20px;
+}
+.card-body p {
+    margin: 15px 20px;
 }
 
 .avatar{
@@ -133,13 +139,14 @@ a{
     margin: 20px;
     border-radius: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 300px;
+    width: 400px;
 }
 
 .requests-header{
     background-color: rgb(48, 48, 48);
     height: auto;
     color: whitesmoke;
+    display: flex;
 }
 
 
@@ -155,13 +162,25 @@ a{
     margin: 20px;
     border-radius: 5px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 300px;
+    width: 400px;
 }
 
 .connections-header{
     background-color: rgb(48, 48, 48);
     height: auto;
     color: whitesmoke;
+    display: flex;
+}
+
+.view-more{
+    width: 100%;
+    border-top: 2px solid #999;
+    display: flex;
+}
+
+.view-more > a{
+    margin: 10px 35px;
+    font-size: 25px;
 }
 
 /* Misc */
@@ -170,21 +189,44 @@ a{
     height: 70px;
     border-radius: 50%;
     background-color: white;
-    margin: 0px 20px;
+    margin: 0px 10px;
 }
 
 h1{
     margin: 0px 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
-.icon-m{
+.icon-m1{
     height: 40px;
+    margin-left: 80px;
 }
+
+.icon-m2{
+    height: 40px;
+    margin-left: 10px;
+}
+
 
 .connection-p{
     display: flex;
     align-items: center;
     font-size: 30px;
+}
+
+.number{
+    height: 30px;
+    align-self: flex-end;
+    margin-left: 20px;
+    margin-right: -10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+h3{
+    color: gray;
+}
+
+p{
+    font-weight: 500;
 }
